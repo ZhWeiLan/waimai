@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="css/meta.css">
+	<link rel="stylesheet" href="css/zhuce.css">
+</head>
+<body>
+	<!-- 登录块开始 -->
+	<a href="dednglu.html">
+		<div class="entry">
+			登录
+		</div>
+	</a>
+	<!-- 登录块结束 -->
+	<!-- 主体开始 -->
+	<main>
+		<div class="goods">
+			<img src="img/user.png" alt="">
+			<div class="call">
+				<img src="img/con1.png" alt="">
+			</div>
+			<input type="tel" class="tell">
+		</div>
+		<div class="goods">
+			<img src="img/code.png" alt="">
+			<div class="call">
+				<img src="img/con2.png" alt="">
+			</div>
+			<input type="tel" class="num">	
+			<div class="box gets">
+				获取验证码
+			</div>		
+		</div>
+		<div class="goods">
+			<img src="img/password.png" alt="">
+			<div class="call">
+				<img src="img/con3.png" alt="">
+			</div>
+			<input type="password" class="pass">
+		</div>
+	</main>
+	<!-- 主体结束 -->
+	<!-- 注册开始 -->
+	<a href="">
+		<div class="register">
+			注册
+		</div>
+	</a>
+	<!-- 注册结束 -->
+</body>
+</html>
+<script>
+let zhu=$(".register");
+let gets=$(".gets");
+let r=Math.floor(Math.random()*10);
+let g=Math.floor(Math.random()*10);
+let b=Math.floor(Math.random()*10);
+let a=Math.floor(Math.random()*10);
+gets.click(function () {
+    $(".num").val(`${r}${g}${b}${a}`);
+})
+zhu.click(function () {
+    let tell=$(".tell").val();
+    let pass=$(".pass").val();
+    let getes=$(".num").val();
+    if(tell==""&&pass==""&&getes==""){
+        alert("请完善账号及密码");
+    }else if(tell==""){
+        alert("请输入密码");
+	}else if(pass==""){
+        alert("请输入账号");
+	}else if(getes==""){
+        alert("请输入验证码");
+    }else{
+        window.open("dpxq.html");
+	}
+
+})
+
+
+
+</script>

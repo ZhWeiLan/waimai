@@ -1,0 +1,340 @@
+/*
+* @Author: 89333
+* @Date:   2018-08-13 20:44:54
+* @Last Modified by:   89333
+* @Last Modified time: 2018-08-14 16:10:32
+*/
+body{
+	background: #dfdfdf;
+}
+.back{
+	width: 100%;
+	height: 7.22rem;
+	background-color: #fef105;
+}
+header{
+	width: 100%;
+	height: 2.6rem;
+	/* background: red; */
+	padding: 0 0.24rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header .icon{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background-color: #fff;
+	margin-top: 0.15rem;
+	position: relative;
+}
+header .icon img{
+	width: 0.25rem;
+	height: 0.25rem;
+	display: block;
+	position: absolute;
+	left: 0.07rem;
+	top: 0.07rem;
+}
+header .deliver{
+	width: 100%;
+	height: 0.5rem;
+	/* background: yellow; */
+	margin-top: 0.25rem;
+	padding-left: 0.25rem;
+	color: #fff;
+	font-size: 0.25rem;
+	position: relative;
+}
+header .deliver .company{
+	width: 0.9rem;
+	height: 0.4rem;
+	/* background: blue; */
+	border-radius: 0.2rem;
+	border: 0.05rem solid #fff;
+	font-size: 0.12rem;
+	text-align: center;
+	/* line-height: 0.3rem; */
+	position: absolute;
+	top: 0;
+	left: 2rem;
+}
+header .address{
+	width: 100%;
+	height: 0.7rem;
+	font-size: 0.4rem;
+	color: #fff;
+	padding-left: 0.25rem;
+}
+header .people{
+	width: 100%;
+	height: 0.55rem;
+	font-size: 0.3rem;
+	color: #fff;
+	padding-left: 0.25rem;
+}
+.box{
+	width: 7.02rem;
+	height: 2.45rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	position: absolute;
+	top: 2.6rem;
+	left: 0.24rem;
+}
+.box .time{
+	width: 100%;
+	height: 0.9rem;
+	/* background: yellow; */
+}
+.box .time .time1{
+	width: 2rem;
+	height: 100%;
+	font-size: 0.3rem;
+	/* background: blue; */
+	color: #000;
+	padding-left: 0.2rem;
+	padding-top: 0.3rem;
+	float: left;
+}
+.box .time .time2{
+	width: 5rem;
+	height: 100%;
+	font-size: 0.3rem;
+	color: #fef105;
+	padding-left: 1.8rem;
+	padding-top: 0.3rem;
+	float: right;
+}
+.box .service{
+	width: 100%;
+	height: 0.55rem;
+	font-size: 0.2rem;
+	color: #fef105;
+	padding-left: 0.2rem;
+	border-bottom: 0.01rem dotted #dfdfdf;
+}
+.box .pay{
+	width: 100%;
+	height: 0.9rem;
+	/* background: red; */
+}
+.box .pay .pay1{
+	width: 3rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.34rem;
+	color: #000;
+	line-height: 0.9rem;
+	padding-left: 0.2rem;
+	float: left;
+}
+.box .pay .pay2{
+	width: 3rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.34rem;
+	color: #fef105;
+	line-height: 0.9rem;
+	padding-left: 1.2rem;
+	float: right;
+}
+main{
+	width: 7.02rem;
+	/* height: 5.65rem; */
+	background: #fff;
+	border-radius: 0.1rem;
+	position: absolute;
+	top: 5.35rem;
+	left: 0.24rem;
+}
+main .shop{
+	width: 100%;
+	height: 1.24rem;
+	/* background: red; */
+	padding-left: 0.24rem;
+	padding-top: 0.5rem;
+	margin-bottom: 0.3rem;
+	font-size: 0.35rem;
+	color: #000;
+	border-bottom: 0.01rem dotted #dfdfdf;
+}
+main .food{
+	width: 100%;
+	height: 0.75rem;
+	margin-top: 0.3rem;
+	/* background: red; */
+	position: relative;
+}
+main .word{
+	width: 2.6rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.28rem;
+	color: #333;
+	padding-left: 0.55rem;
+	position: absolute;
+	top: 0;
+	left: 0.24rem;
+}
+main .num{
+	width: 1.5rem;
+	height: 100%;
+	/* background: yellow; */
+	position: absolute;
+	top: 0;
+	left: 4rem;
+}
+main .num img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+main .num span{
+	font-size: 0.3rem;
+	color: #333;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0.5rem;
+}
+main .money{
+	width: 1.5rem;
+	height: 100%;
+	/* background: blue; */
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 0.3rem;
+	color: #fe0101;
+}
+main .page{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 0.01rem dotted #dfdfdf;
+	border-top: 0.01rem dotted #dfdfdf;
+}
+main .page .left{
+	width: 50%;
+	height: 100%;
+	padding-left: 0.24rem;
+	/* background: red; */
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 1rem;
+	float: left;
+}
+main .page .right{
+	width: 50%;
+	height: 100%;
+	padding-left: 1.2rem;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: #a3a3a3;
+	line-height: 1rem;
+	float: right;
+}
+main .all{
+	width: 100%;
+	height: 1rem;
+}
+main .all .left{
+	width: 50%;
+	height: 100%;
+	padding-left: 0.24rem;
+	/* background: red; */
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 1rem;
+	float: left;
+}
+main .all .right{
+	width: 50%;
+	height: 100%;
+	padding-left: 2.1rem;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: #fe0101;
+	line-height: 1rem;
+	float: right;
+}
+.goods{
+	width: 7.02rem;
+	height: 2rem;
+	margin: 0 0.24rem;
+	border-radius: 0.1rem;
+	margin-top: 0.24rem;
+	margin-bottom: 1.3rem;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top:12rem;
+}
+.goods .left{
+	width: 50%;
+	height: 100%;
+	padding-left: 0.24rem;
+	/* background: red; */
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 1rem;
+	float: left;
+}
+.goods .page{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 0.01rem dotted #dfdfdf;
+}
+.goods .page .right{
+	width: 50%;
+	height: 100%;
+	padding-left: 1.5rem;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: #a3a3a3;
+	line-height: 1rem;
+	float: right;
+}
+.goods .all .right{
+	width: 50%;
+	height: 100%;
+	padding-left: 2.1rem;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: #a3a3a3;
+	line-height: 1rem;
+	float: right;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;	
+	box-shadow: 0 0.02rem 0.05rem 0.04rem rgba(253, 230, 122, 0.8);
+}
+footer .money{
+	width: 50%;
+	height: 100%;
+	font-size: 0.3rem;
+	color: #fe0101;
+	padding-left: 0.6rem;
+	line-height: 1rem;
+}
+footer .pay{
+	width: 1.9rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background: #fec605;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #fff;
+	position: absolute;
+	bottom: 0.25rem;
+	right: 0.45rem;
+}

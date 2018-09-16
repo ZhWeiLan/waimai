@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="css/meta.css">
+	<link rel="stylesheet" href="css/denglu.css">
+</head>
+<body>
+	<div class="all"></div>
+	<div class="bot">
+		<img src="img/bot.png" alt="">
+	</div>
+	<div class="pic">
+		<img src="img/pho.png" alt="">
+	</div>
+	
+	<!-- 主体开始 -->
+	<main>
+		<div class="goods">
+			<img src="img/user.png" alt="">
+			<div class="call">
+				<img src="img/con1.png" alt="">
+			</div>
+			<input type="tel" class="tell" value="">
+		</div>
+		<div class="goods">
+			<img src="img/password.png" alt="">
+			<div class="call">
+				<img src="img/con3.png" alt="">
+			</div>
+			<input type="password" class="pass">
+		</div>
+		<div class="problem">
+			<img src="img/problem.png" alt="">
+			<span>忘记密码</span>
+		</div>
+	</main>
+	<!-- 主体结束 -->
+	
+	<div class="choose">
+		<a href="zhuce.html">
+			<div class="left">注册</div>
+		</a>
+		<a href="">
+			<div class="right denglu">登录</div>
+		</a>
+	</div>
+
+	<div class="third_party">
+		<img src="img/third_party.png" alt="" class="word">
+		<img src="img/qq.png" alt="" class="qq">
+		<img src="img/weibo.png" alt="" class="wb">
+		<img src="img/weixin.png" alt="" class="wx">
+	</div>
+
+</body>
+</html>
+<script>
+    let deng=$(".denglu");
+    console.log(deng);
+	deng.click(function () {
+        let tell=$(".tell").val();
+        let pass=$(".pass").val();
+        if(tell==""&&pass==""){
+            alert("请输入账号及密码");
+        }else if(tell=="0416"&&pass=="0408"){
+			window.open("dpxq.html")
+		}else{
+            alert("请输入正确的账号及密码");
+		}
+    })
+
+
+</script>

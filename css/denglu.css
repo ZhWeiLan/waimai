@@ -1,0 +1,164 @@
+/*
+* @Author: 89333
+* @Date:   2018-08-14 18:20:54
+* @Last Modified by:   89333
+* @Last Modified time: 2018-08-15 10:02:51
+*/
+img{
+	display: block;
+}
+.all{
+	width: 100%;
+	height: 13.2rem;
+	background: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bot{
+	width: 100%;
+	height: 8.2rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.bot img{
+	width: 100%;
+	height: 8.2rem;
+}
+.pic{
+	width: 2.6rem;
+	height: 3.1rem;
+	/* background-color: red; */
+	position: absolute;
+	top: 4.5rem;
+	left: 2.45rem;
+}
+.pic img{
+	width: 100%;	
+	height: 100%;
+}
+main{
+	width: 5.7rem;
+	height: 3rem;
+	/* background-: ;color: red; */
+	position: absolute;
+	left:0.9rem;
+	top: 7.75rem;
+}
+main .goods{
+	width: 5.7rem;
+	height: 1rem;
+	/* background: red; */
+	border-bottom: 0.01rem dotted #dfdfdf;
+	position: relative;
+	margin-bottom: 0.15rem;
+}
+main .goods img{
+	width: 1.4rem;
+	height: 0.15rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+main .goods .call img{
+	width: 0.47rem;
+	height: 0.47rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0;
+}
+main .goods input{
+	width: 4rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0.57rem;
+	font-size: 0.22rem;
+}
+main .problem{
+	width: 2rem;
+	height: 0.5rem;
+	/* background-color: yellow; */
+	margin-top: 0.2rem;
+	position: relative;
+}
+main .problem img{
+	width: 0.47rem;
+	height: 0.47rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+main .problem span{
+	font-size: 0.22rem;
+	color: #fbc42f;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.5rem;
+}
+.choose{
+	width: 4.85rem;
+	height: 0.6rem;
+	/* background-color: yellow; */
+	position: absolute;
+	left: 1.4rem;
+	bottom: 2rem;
+}
+.choose .left{
+	width: 1.8rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background-color: #fbc42f;
+	color: #fde9be;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+	float: left;
+}
+.choose .right{
+	width: 1.8rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background-color: #fbc42f;
+	color: #fde9be;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+	float: right;
+}
+.third_party{
+	width: 4.6rem;
+	height: 1.15rem;
+	/* background-color: yellow; */
+	position: absolute;
+	bottom: 0.40rem;
+	left: 1.5rem;
+}
+.third_party img.word{
+	width: 4.6rem;
+	height: 0.4rem;
+	position: absolute;
+	bottom: 0.75rem;
+	left: 0;
+}
+.third_party img.qq{
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.7rem;
+}
+.third_party img.wb{
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	bottom: 0;
+	left: 2rem;
+}
+.third_party img.wx{
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	bottom: 0;
+	right: 0.7rem;
+}
