@@ -2,7 +2,7 @@
 * @Author: 89333
 * @Date:   2018-08-08 08:52:43
 * @Last Modified by:   89333
-* @Last Modified time: 2018-09-14 21:40:22
+* @Last Modified time: 2018-09-18 17:18:34
 */
 header{
 	width: 100%;
@@ -11,6 +11,7 @@ header{
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 2;
 }
 header .pos{
 	width: 1.12rem;
@@ -58,6 +59,7 @@ header .pic{
 .banner{
 	width: 7.5rem;
 	height: 3.98rem;
+	margin-top: 1rem;
 /* 	background-color: blue;
 	background-image: url('../img/banner.png');
 	background-repeat: no-repeat;
